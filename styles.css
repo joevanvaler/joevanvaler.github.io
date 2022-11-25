@@ -120,6 +120,10 @@ footer ul {
     padding: 0 10px 20px;
 }
 
+.footer-col-wrapper {
+    width: 100%;
+}
+
 .footer-col p {
     margin: 0;
 }

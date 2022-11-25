@@ -4,56 +4,39 @@
     <title>Joe Van Valer</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+    <link rel="icon" type="image/x-icon" href="photos/favicon.png">
 </head>
 
 <body>
 
-<header class="site-header" role="banner">
-    <nav>
-        <ul>
-            <li class="site-title">
-                <a href=".">Joe Van Valer</a>
-            </li>
-            <li>
-                <a class="nav-entry" href="blog.html">Blog</a>
-            </li>
-            <li>
-                <a class="nav-entry" href="math.html">Math</a>
-            </li>
-            <li>
-                <a class="nav-entry" href="about.html">About</a>
-            </li>
-        </ul>
-    </nav>
+<include src="./header.html"></include>
 
-</header>
 
 <div class="main-wrapper">
-    <h1>About me</h1>
-    <p>Hi I'm Joe. Insert more stuff here.</p>
+    <h1>About</h1>
+    <p>Joseph Mitchell Van Valer. Indianian.
+        Not to be confused with <a href="https://en.wikipedia.org/wiki/Joseph_Smith">Joseph Smith</a>,
+        founder of the Mormon church, though Alex could probably still hear the judgement from here... Math
+        genius <s>struggling through</s> taking Foundations of Analysis as a freshman (okay math major). Comes from a
+        prodigy family. Third(?) generation legacy student + son of faculty at IU School of Medicine, but still spends
+        half his time looking up stats about other med schools (though, he did have an identity crisis when he wanted to
+        switch to a statistics phd once -- it wasn't pretty). 2nd best juggler in Purdue juggling club history. Tetris
+        god (it's a lifestyle). Legendary unicyclist.<br><br>
+
+        And, of course, bicycle maniac sometimes.<br><br>
+
+        Happy birthday Joe <3<br>
+    </p>
+    <div class="my-grid">
+        <img src="/joe-website/photos/math.jpg" class="grid-pic">
+        <img src="/joe-website/photos/walk.jpg" class="grid-pic">
+        <img src="/joe-website/photos/brick.jpg" class="grid-pic">
+    </div>
 </div>
 
-<footer>
-    <h2>Joe Van Valer</h2>
-    <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-            <ul>
-                <li>A goofy Indianian majoring in math as a pre-med (for some reason)</li>
-                <li><a href="mailto:joepoint14159@gmail.com">joepoint14159@gmail.com</a></li>
-            </ul>
-        </div>
-        <div class="footer-col footer-col-2">
-            <ul>
-                <li><a href="mailto:joepoint14159@gmail.com">instagram</a></li>
-                <li><a href="mailto:joepoint14159@gmail.com">idk some other link</a></li>
-            </ul>
-        </div>
-        <div class="footer-col footer-col-3">
-            <p>testing testing 123</p>
-        </div>
-    </div>
-</footer>
+<include src="./footer.html"></include>
+
 </body>
 
 </html>

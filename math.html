@@ -4,64 +4,46 @@
     <title>Joe Van Valer</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+    <link rel="icon" type="image/x-icon" href="photos/favicon.png">
 </head>
 
 
 <body>
 
-<header class="site-header" role="banner">
-    <nav>
-        <ul>
-            <li class="site-title">
-                <a href=".">Joe Van Valer</a>
-            </li>
-            <li>
-                <a class="nav-entry" href="blog.html">Blog</a>
-            </li>
-            <li>
-                <a class="nav-entry" href="math.html">Math</a>
-            </li>
-            <li>
-                <a class="nav-entry" href="about.html">About</a>
-            </li>
-        </ul>
-    </nav>
+<include src="./header.html"></include>
 
-</header>
 
 <div class="main-wrapper">
-    <h1>Insert Desmos widgets and stuff here</h1>
-    <ul>
-        <li>Hello</li>
-        <li>Hello</li>
-        <li>Hello</li>
-        <li>Hello</li>
-        <li>Hello</li>
-        <li>Hello</li>
-    </ul>
-</div>
-
-<footer>
-    <h2>Joe Van Valer</h2>
-    <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-            <ul>
-                <li>A goofy Indianian majoring in math as a pre-med (for some reason)</li>
-                <li><a href="mailto:joepoint14159@gmail.com">joepoint14159@gmail.com</a></li>
-            </ul>
-        </div>
-        <div class="footer-col footer-col-2">
-            <ul>
-                <li><a href="mailto:joepoint14159@gmail.com">instagram</a></li>
-                <li><a href="mailto:joepoint14159@gmail.com">idk some other link</a></li>
-            </ul>
-        </div>
-        <div class="footer-col footer-col-3">
-            <p>testing testing 123</p>
-        </div>
+    <h1>Math</h1>
+    <p>This entire gift was originally inspired by Joe's desire for "some website where [he] could store all [his]
+        desmos projects," so I can only hope that this part of the website actually functions the way it is intended
+        to.</p>
+    <div class="my-grid">
+        <a class="math-link" href="./desmos/windchill-formula.html">
+            <div class="grid-content">
+                <h2>Windchill Formula</h2>
+                <p>Modeling actual vs. perceived temperature using the officially recognized formula for windchill.</p>
+                <div class="desmos-content">
+                    <iframe src="https://www.desmos.com/calculator/tx25pbuxub?embed"
+                            style="border: 1px solid #ccc"></iframe>
+                </div>
+            </div>
+        </a>
+        <a class="math-link" href="./desmos/desmos-template.html">
+            <div class="grid-content">
+                <h2>[Insert Desmos Project Here]</h2>
+                <p>[Insert description]</p>
+                <div class="desmos-content">
+                    <iframe src="https://www.desmos.com/calculator/yp6auzmtxv?embed"
+                            style="border: 1px solid #ccc"></iframe>
+                </div>
+            </div>
+        </a>
     </div>
-</footer>
+</div>
+<include src="./footer.html"></include>
+
 </body>
 
 </html>

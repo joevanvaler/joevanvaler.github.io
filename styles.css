@@ -170,6 +170,14 @@ h1, h2 {
     object-fit: scale-down;
 }
 
+.grid-content > p {
+    width: 100%;
+}
+
+.grid-content > h2 {
+    width: 100%;
+}
+
 .desmos-content {
     position: absolute;
     bottom: 0;

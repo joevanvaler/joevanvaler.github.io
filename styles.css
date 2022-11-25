@@ -116,7 +116,7 @@ footer ul {
 .footer-col {
     float: left;
     margin: 0;
-    max-width: 300px;
+    max-width: 400px;
     padding: 0 10px 20px;
 }
 
@@ -173,6 +173,7 @@ h1, h2 {
 .desmos-content {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .math-link {

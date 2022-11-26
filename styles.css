@@ -116,7 +116,7 @@ footer ul {
 .footer-col {
     float: left;
     margin: 0;
-    max-width: 400px;
+    max-width: 30vw;
     padding: 0 10px 20px;
 }
 
@@ -158,7 +158,7 @@ h1, h2 {
 }
 
 .grid-content {
-    max-width: 200px;
+    max-width: 30vw;
     min-height: 384px;
     border: 1px solid white;
     position: relative;
@@ -170,18 +170,18 @@ h1, h2 {
     object-fit: scale-down;
 }
 
-.grid-content > p {
+.desmos-description {
     width: 100%;
 }
 
-.grid-content > h2 {
+.desmos-div {
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
 .desmos-content {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    width: 100%
 }
 
 .math-link {

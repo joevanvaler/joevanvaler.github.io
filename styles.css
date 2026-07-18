@@ -144,30 +144,17 @@ h1, h2 {
 }
 
 .my-grid {
-    --gap: 16px;
-    --num-cols: 3;
-    --row-height: 400px;
-
-    box-sizing: border-box;
-    padding: var(--gap);
-
     display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    gap: var(--gap);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 24px 0;
 }
 
-.grid-content {
-    max-width: 30vw;
-    min-height: 384px;
-    border: 1px solid white;
-    position: relative;
-}
-
-.grid-content > img {
+.grid-pic {
     width: 100%;
-    height: 100%;
-    object-fit: scale-down;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
 .desmos-description {

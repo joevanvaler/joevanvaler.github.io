@@ -148,6 +148,7 @@ h1, h2 {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     margin: 24px 0;
+    margin-bottom: 32px;
 }
 
 .grid-pic {
